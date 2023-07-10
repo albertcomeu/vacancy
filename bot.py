@@ -15,7 +15,7 @@ from pars import Pars
 from ner_alg import Ner_skills
 n = Ner_skills()
 
-bot = Bot(token='6179711565:AAEN68i8mQQKe5lZdYyedCkkWixZBelb7sk')  # токен для взаимодействия с ботом
+bot = Bot(token='####')  # токен для взаимодействия с ботом
 dp = Dispatcher(bot, storage=MemoryStorage())  # создаём объект класса диспетчера
 
 
